@@ -1,46 +1,58 @@
 ### MVC App
 
+Jokebook is a simple MVC web app built with Node.js, Express, and EJS that lets users store, browse, and get jokes organized by category. It shows basic Create, Read, and Search functionality: add jokes (use categories `lameJoke` or `funnyJoke`), view jokes by category, search by category, and fetch a random joke.
+
 ### Installation
 
 - Get the project
   - download zip
   - clone
-```
-git clone https://github.com/shaunaayscue/Jokebook.git
-```
 
 - Open the project in VSCode.
 - Open a Terminal.
 - Install required packages.
+
 ```
 npm install
 ```
+
 - Start the server
+
 ```
 nodemon server.js
 ```
+
 - After starting the server, go to the landing page
+
 ```
 http://localhost:3000
 ```
+
 - When adding a new joke, in the category box type either
+
 ```
 lameJoke
 ```
- or 
- ```
+
+or
+
+```
 funnyJoke
 ```
-When all the boxes are filled, click save and then the new joke will be shown along with the other jokes in that category. 
+
+When all the boxes are filled, click save and then the new joke will be shown along with the other jokes in that category.
 
 - Get a random joke by clicking on the "Get a new random joke" button.
 
 - In the search bar, type either
+
 ```
 lameJoke
 ```
- or 
- ```
+
+or
+
+```
 funnyJoke
 ```
 
